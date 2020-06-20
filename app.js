@@ -7,7 +7,7 @@ generateJoke()
 
 async function generateJoke () {
 
-    const jokeRes = await fetch('https://sv443.net/jokeapi/v2/joke/Any?type=single', {
+    const jokeRes = await fetch('https://icanhazdadjoke.com/', {
         headers: {
             'Accept' : 'application/json'
         }
