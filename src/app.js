@@ -1,9 +1,9 @@
-const jokeEl = document.getElementById('joke')
-const getJoke = document.getElementById('getJoke')
+const jokeEl = document.getElementById('joke');
+const getJoke = document.getElementById('getJoke');
 
-getJoke.addEventListener('click', generateJoke)
+getJoke.addEventListener('click', generateJoke);
 
-generateJoke()
+generateJoke();
 
 async function generateJoke () {
 
@@ -11,9 +11,9 @@ async function generateJoke () {
         headers: {
             'Accept' : 'application/json'
         }
-    })
+    });
 
-    const joke = await jokeRes.json()
+    const joke = await jokeRes.json();
 
     jokeEl.innerHTML = joke.joke;
 }
