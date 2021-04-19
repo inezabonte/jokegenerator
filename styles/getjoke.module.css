@@ -1,19 +1,19 @@
 .joke{
     line-height: 40px;
     font-size: 25px;
-    margin: 50px auto;
-    max-width: 600px;
+    margin: 30px;
 }
 
 .btn{
     font-family: 'Poppins', sans-serif;
     border: 0;
     font-size: 16px;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: white;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 0 6px 6px rgba(0, 0, 0, 0.1);
     padding: 15px 40px;
     cursor: pointer;
+    width: 90%;
+    align-self: center;
 }
 
 .btn:active{
@@ -23,3 +23,9 @@
 .btn:focus{
     outline: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .joke {
+        font-size: 20px;
+    }
+  }

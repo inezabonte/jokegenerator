@@ -19,9 +19,7 @@ export default function index() {
                 <meta name="Description" content="An app full of funny jokes" />
             </Head>
             <div className={styles.container}>
-                <h3 className={styles.title}>
-                    <span>JOKE GENERATOR</span>
-                </h3>
+                <h3 className={styles.title}>JOKE GENERATOR</h3>
                 <GetJoke/>
             </div>
         </div>

@@ -17,9 +17,9 @@ export default function GetJokes() {
         .then(res => setJoke(res.data.joke) )
     }
     return (
-        <div>
+        <>
             <p className={styles.joke}>{joke}</p>
             <button className={styles.btn} onClick={generateJoke}>Make Me Laugh</button>
-        </div>
+        </>
     )
 }
