@@ -4,7 +4,7 @@ This is one of the projects I build when learning the basics of web developemnt
 
 ## Stacks used ⚙️
 
-- Next.js 
+- Next.js
 - CSS
 
 ## Running Locally
