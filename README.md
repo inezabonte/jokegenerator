@@ -1,3 +1,21 @@
-## Dad Joke Project
+# Joke Generator 😄
 
-Hey there here is a fun little project that generates a dad joke at the click of a button, have fun and share with your friends
+This is one of the projects I build when learning the basics of web developemnt
+
+## Stacks used ⚙️
+
+- Next.js
+- CSS
+
+## Running Locally
+
+- `yarn install`
+- `yarn dev`
+
+## View Deployment 🚀
+
+To view the Live deploment; click on this [Link](https://jokegenerator.vercel.app/)
+
+## Credits ©
+
+- Source of jokes [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/) 
