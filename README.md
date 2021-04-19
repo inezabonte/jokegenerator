@@ -18,4 +18,4 @@ To view the Live deploment; click on this [Link](https://jokegenerator.vercel.ap
 
 ## Credits ©
 
-- Source of jokes [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/) 
+- Source of jokes [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/)

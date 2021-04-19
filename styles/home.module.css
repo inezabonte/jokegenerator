@@ -1,20 +1,23 @@
 
 .container{
     background-color: white;
-    max-width: 100%;
-    width: 800px;
-    padding: 50px 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 0 6px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
-.title span{
+.title{
     padding: 10px;
     letter-spacing: 2px;
-    margin: 0;
     color: white;
     font-weight: 700;
     background-color: black;
+    text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+     width: 100%;
+    }
+  }
